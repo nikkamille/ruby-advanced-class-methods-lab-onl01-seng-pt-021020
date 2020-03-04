@@ -47,6 +47,5 @@ class Song
     song_info = song.split(" - ")
     song_name = song_info[1].gsub(/.mp3/, "")
     song_artist = song_info[0]
-    binding.pry
   end
 end
